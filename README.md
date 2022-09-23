@@ -39,7 +39,12 @@ Mi configuración:
     "@typescript-eslint/quotes": [ 2, "single", "avoid-escape" ]
 }
 ```
-
-
-
 ver mas en [https://eslint.org/docs/latest/user-guide/configuring/](https://eslint.org/docs/latest/user-guide/configuring/)
+
+Nota: <br>
+Para realizar una revision de la sintaxis segun las reglas configuradas se puede ejecutar el comando:<br>
+```npx eslint .```<br>
+Algunos problemas informados por las reglas definidas se pueden solucionar automáticamente mediante la opción --fix:<br>
+```npx eslint --fix .```
+
+ver mas en [https://eslint.org/docs/latest/user-guide/command-line-interface](https://eslint.org/docs/latest/user-guide/command-line-interface)
