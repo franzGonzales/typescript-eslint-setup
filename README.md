@@ -1,6 +1,9 @@
 # typescript-eslint-setup
 
-### Instalación
+### Instalacion del proyecto de ejemplo
+```npm install```
+
+### Instalación de eslint desde cero
 ```npm init @eslint/config```
 
 ##### Pasos recomendados para la instalación
@@ -15,7 +18,7 @@
 ### Configuración<br>
 
 El fichero de configuracion ```.eslintrc.json``` contiene las reglas de eslint:<br>
-Mi configuración: 
+Configuracion sugerida: 
 ```
 "rules": {
     "semi": ["error", "always"],      
